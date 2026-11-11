@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --color-warm-ivory: #FAF7F2;
+  --color-warm-cream: #F4EFEA;
+  --color-warm-sand: #EAE3D9;
+  --color-warm-champagne: #D8C7B5;
+  --color-warm-gold: #B8976C;
+  --color-warm-bronze: #8C6D48;
+  --color-espresso: #24201E;
+  --color-charcoal: #383431;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: #FAF7F2;
+  color: #24201E;
+}
+
+/* Subtle luxury grain effect utility */
+.luxury-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(184, 151, 108, 0.3) 50%, transparent 100%);
+}

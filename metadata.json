@@ -1,0 +1,6 @@
+{
+  "name": "Arovia Aesthetics — Luxury Aesthetics & Skin Clinic",
+  "description": "Bespoke facial architecture, natural rejuvenation, and medical-grade aesthetics at Arovia Aesthetics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
