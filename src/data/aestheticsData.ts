@@ -1,10 +1,15 @@
 import { Treatment, GalleryItem, Testimonial, InstagramPost } from '../types';
+import botanicalTextureImage from '../assets/images/arovia_botanical_texture_1794424979173.jpg';
+import clinicInteriorImage from '../assets/images/arovia_clinic_interior_1794424977248.jpg';
+import heroImage from '../assets/images/arovia_hero_aesthetic_1794424976517.jpg';
+import resultsGlowImage from '../assets/images/arovia_results_glow_1794424979776.jpg';
+import treatmentSkincareImage from '../assets/images/arovia_treatment_skincare_1794424978317.jpg';
 
-export const HERO_IMAGE = '/src/assets/images/arovia_hero_aesthetic_1794424976517.jpg';
-export const CLINIC_INTERIOR_IMAGE = '/src/assets/images/arovia_clinic_interior_1794424977248.jpg';
-export const TREATMENT_SKINCARE_IMAGE = '/src/assets/images/arovia_treatment_skincare_1794424978317.jpg';
-export const RESULTS_GLOW_IMAGE = '/src/assets/images/arovia_results_glow_1794424979776.jpg';
-export const BOTANICAL_TEXTURE_IMAGE = '/src/assets/images/arovia_botanical_texture_1794424979173.jpg';
+export const HERO_IMAGE = heroImage;
+export const CLINIC_INTERIOR_IMAGE = clinicInteriorImage;
+export const TREATMENT_SKINCARE_IMAGE = treatmentSkincareImage;
+export const RESULTS_GLOW_IMAGE = resultsGlowImage;
+export const BOTANICAL_TEXTURE_IMAGE = botanicalTextureImage;
 
 export const TREATMENTS: Treatment[] = [
   {
